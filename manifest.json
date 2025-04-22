@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Bank of America Account Organizer",
+  "version": "1.0",
+  "description": "Collapsible and sortable Bank of America accounts list",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.bankofamerica.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

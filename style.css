@@ -1,0 +1,10 @@
+.collapse-toggle {
+  position: relative;
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 2px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: -30px;
+  margin-right: 10px;
+}
